@@ -1,7 +1,5 @@
 # SquareReaderSDK
-# Definitions of the Square Reader SDK to use with Xamarin iOS # 
-
-
+  Definitions of the Square Reader SDK to use with Xamarin iOS
   Generate with objective Sharpie
 
 ##   Docs   ## 
