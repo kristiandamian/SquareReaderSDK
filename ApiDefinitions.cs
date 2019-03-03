@@ -478,15 +478,15 @@ namespace SquareBinding
 
 
 
-    // @interface  (SQRDCheckoutResult)
-    //[Category]
-    [BaseType(typeof(SQRDCheckoutResult))]
-    interface SQRDCheckoutResult_
-    {
-        // -(instancetype _Nonnull)initWithTransactionID:(NSString * _Nullable)transactionID transactionClientID:(NSString * _Nonnull)transactionClientID locationID:(NSString * _Nonnull)locationID createdAt:(NSDate * _Nonnull)createdAt tenders:(NSArray<SQRDTender *> * _Nonnull)tenders totalMoney:(SQRDMoney * _Nonnull)totalMoney totalTipMoney:(SQRDMoney * _Nonnull)totalTipMoney;
-        [Export("initWithTransactionID:transactionClientID:locationID:createdAt:tenders:totalMoney:totalTipMoney:")]
-        IntPtr Constructor([NullAllowed] string transactionID, string transactionClientID, string locationID, NSDate createdAt, SQRDTender[] tenders, SQRDMoney totalMoney, SQRDMoney totalTipMoney);
-    }
+    //// @interface  (SQRDCheckoutResult)
+    ////[Category]
+    //[BaseType(typeof(SQRDCheckoutResult))]
+    //interface SQRDCheckoutResult_
+    //{
+    //    // -(instancetype _Nonnull)initWithTransactionID:(NSString * _Nullable)transactionID transactionClientID:(NSString * _Nonnull)transactionClientID locationID:(NSString * _Nonnull)locationID createdAt:(NSDate * _Nonnull)createdAt tenders:(NSArray<SQRDTender *> * _Nonnull)tenders totalMoney:(SQRDMoney * _Nonnull)totalMoney totalTipMoney:(SQRDMoney * _Nonnull)totalTipMoney;
+    //    [Export("initWithTransactionID:transactionClientID:locationID:createdAt:tenders:totalMoney:totalTipMoney:")]
+    //    IntPtr Constructor([NullAllowed] string transactionID, string transactionClientID, string locationID, NSDate createdAt, SQRDTender[] tenders, SQRDMoney totalMoney, SQRDMoney totalTipMoney);
+    //}
 
 
    
